@@ -1,0 +1,47 @@
+
+#formulario-contacto {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+input, textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+textarea {
+    overflow-y: hidden; 
+    resize: vertical; 
+}
+  
+input:focus, textarea:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+  
+input.valid, textarea.valid {
+    border-color: #0f0; 
+}
+  
+input.invalid, textarea.invalid {
+    border-color: #f00; 
+}
+  
+
+#error {
+    color: #f00;
+    font-size: 14px;
+    margin-top: 5px;
+}
